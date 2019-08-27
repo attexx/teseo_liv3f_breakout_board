@@ -1,6 +1,7 @@
 ## Teseo-LIV3F Breakout Board
 
-<img width="400px" src="https://user-images.githubusercontent.com/15846193/63805964-d4523200-c91a-11e9-9adf-0ff3d9ac2a98.png" /> <img width="400px" src="https://user-images.githubusercontent.com/15846193/63806015-ec29b600-c91a-11e9-9ca8-fdc9a693bfe2.png" />
+<img width="300px" src="https://user-images.githubusercontent.com/15846193/63805964-d4523200-c91a-11e9-9adf-0ff3d9ac2a98.png" />
+<img width="300px" src="https://user-images.githubusercontent.com/15846193/63806015-ec29b600-c91a-11e9-9ca8-fdc9a693bfe2.png" />
 
 This repo represents a [Teseo-LIV3F](https://www.st.com/en/positioning/teseo-liv3f.html) tiny GNSS Module  breakout board, purposed to check around and play with the module itself.
 
