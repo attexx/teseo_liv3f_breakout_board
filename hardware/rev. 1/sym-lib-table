@@ -8,4 +8,5 @@
   (lib (name Connector_Local)(type Legacy)(uri "D:/Electronics/_projects/20181031.1 TESEO-LIV3F Breakout Board/KiCAD/lib_sch/Connector_Local.lib")(options " pwr_sym_only")(descr ""))
   (lib (name project-rescue)(type Legacy)(uri ${KIPRJMOD}/project-rescue.lib)(options "")(descr ""))
   (lib (name Connectoe_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Connectoe_Local.lib)(options "")(descr ""))
+  (lib (name st1s12gr)(type Legacy)(uri "D:/Electronics/_projects/___in_production/20181105.1 - WA.11.01 - TESEO-LIV3F Breakout Board, rev. 1.1 - Copy/hardware/rev. 1/lib_sch/st1s12gr.lib")(options "")(descr ""))
 )
