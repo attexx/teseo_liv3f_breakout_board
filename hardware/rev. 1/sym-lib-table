@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name conn_coaxial_4_pins)(type Legacy)(uri ${KIPRJMOD}/lib_sch/conn_coaxial_4_pins.lib)(options "")(descr ""))
+  (lib (name teseo-liv3f)(type Legacy)(uri ${KIPRJMOD}/lib_sch/teseo-liv3f.lib)(options "")(descr ""))
+  (lib (name teseo-liv3f_2)(type Legacy)(uri "D:/Electronics/_projects/20181001.1 RAK833/KiCAD/rev. 7/lib_sch/teseo-liv3f_2.lib")(options " pwr_sym_only")(descr ""))
+  (lib (name Amplifier_RF)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Amplifier_RF.lib)(options "")(descr ""))
+  (lib (name Filter_RF)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Filter_RF.lib)(options "")(descr ""))
+  (lib (name Regulator_Switchung_Local)(type Legacy)(uri "D:/Electronics/_projects/20181031.1 TESEO-LIV3F Breakout Board/KiCAD/lib_sch/Regulator_Switchung_Local.lib")(options " pwr_sym_only")(descr ""))
+  (lib (name Connector_Local)(type Legacy)(uri "D:/Electronics/_projects/20181031.1 TESEO-LIV3F Breakout Board/KiCAD/lib_sch/Connector_Local.lib")(options " pwr_sym_only")(descr ""))
+  (lib (name project-rescue)(type Legacy)(uri ${KIPRJMOD}/project-rescue.lib)(options "")(descr ""))
+  (lib (name Connectoe_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Connectoe_Local.lib)(options "")(descr ""))
+)

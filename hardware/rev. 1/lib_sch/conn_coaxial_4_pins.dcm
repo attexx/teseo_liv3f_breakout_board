@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_Coaxial_4_Pins
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
+#End Doc Library
