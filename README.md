@@ -7,10 +7,7 @@
 
 ### Project Status
 
-
-
-
-
+**NOTE: This project is still under development therefore it's not tested yet.** 
 
 ### Overview
 
