@@ -1,4 +1,4 @@
-16125001390704514
+16126568383775334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72850,6 +72850,13 @@ Hirose U.FL Coaxial
 2
 lib_fp
 Corner_90x0.1
+
+
+0
+0
+0
+lib_fp
+Corner_90x0.5
 
 
 0
