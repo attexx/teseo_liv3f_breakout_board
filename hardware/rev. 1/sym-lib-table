@@ -1,7 +1,7 @@
 (sym_lib_table
-  (lib (name teseo-liv3f)(type Legacy)(uri ${KIPRJMOD}/lib_sch/teseo-liv3f.lib)(options "")(descr ""))
   (lib (name Regulator_Switching_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Regulator_Switching_Local.lib)(options "")(descr ""))
   (lib (name Connector_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Connector_Local.lib)(options "")(descr ""))
   (lib (name Amplifier_RF_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Amplifier_RF_Local.lib)(options "")(descr ""))
   (lib (name Filter_RF_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Filter_RF_Local.lib)(options "")(descr ""))
+  (lib (name RF_GPS_Local)(type Legacy)(uri ${KIPRJMOD}/lib_sch/RF_GPS_Local.lib)(options "")(descr ""))
 )

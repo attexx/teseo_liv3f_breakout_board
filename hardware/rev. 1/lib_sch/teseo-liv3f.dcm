@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TESEO-LIV3F
-D MODULE GPS SIRFSTARIV
-K 1530-1011-1-ND SiRFstarIV™
-F http://update.maestro-wireless.com/GNSS/A2235-H/Maestro_A2135_HA2235_H_v11.pdf
-$ENDCMP
-#
-#End Doc Library
