@@ -1,5 +1,6 @@
 *.bck
 *.bak
 *.dcm
+locations.txt
 components/
 fabrication/
