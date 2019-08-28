@@ -1,6 +1,8 @@
 # TESEO-LIV3F Breakout Board
 
-This is a simple breakout board purposed for testing and evaluating the TESEO-LIV3F tiny GPS module
+This is a simple breakout board purposed for testing and evaluating the [TESEO-LIV3F][db4cd872] tiny GPS module
+
+  [db4cd872]: https://www.st.com/en/positioning/teseo-liv3f.html "teseo-liv3f"
 
 <img width="800" src="https://user-images.githubusercontent.com/15846193/63839797-398c3e80-c980-11e9-9a6c-3462621e9420.png" />
 <img width="800" src="https://user-images.githubusercontent.com/15846193/63839843-532d8600-c980-11e9-977b-553d73ab70f3.png" />
