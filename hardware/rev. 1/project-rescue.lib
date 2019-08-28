@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Conn_01x10_1-Connector_Local-project-rescue
+# Conn_01x10_1-Connector_Local
 #
-DEF Conn_01x10_1-Connector_Local-project-rescue J 0 40 Y N 1 F N
+DEF Conn_01x10_1-Connector_Local J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Conn_01x10_1-Connector_Local-project-rescue" 0 -600 50 H V C CNN
+F1 "Conn_01x10_1-Connector_Local" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -36,11 +36,11 @@ X Pin_20 20 -200 -500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ST1S12GR-Regulator_Switchung_Local-project-rescue
+# ST1S12GR-Regulator_Switchung_Local
 #
-DEF ST1S12GR-Regulator_Switchung_Local-project-rescue U 0 40 Y Y 1 F N
+DEF ST1S12GR-Regulator_Switchung_Local U 0 40 Y Y 1 F N
 F0 "U" -200 250 50 H V C CNN
-F1 "ST1S12GR-Regulator_Switchung_Local-project-rescue" -50 -250 50 H V C CNN
+F1 "ST1S12GR-Regulator_Switchung_Local" -50 -250 50 H V C CNN
 F2 "" -50 -50 50 H I C CNN
 F3 "" -50 -50 50 H I C CNN
 $FPLIST

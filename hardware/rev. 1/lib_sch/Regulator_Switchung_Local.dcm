@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ST1S12GR
-D Synchronous rectification with enable, 0.7 A, 1.7 MHz fixed or adjustable step-down switching regulator 
-K ST1S12XX
-F https://www.st.com/resource/en/datasheet/st1s12xx.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -2,3 +2,5 @@
 *.bak
 *.dcm
 components/
+fabrication/
+hardware/

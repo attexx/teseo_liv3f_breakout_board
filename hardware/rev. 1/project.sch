@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:project-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -426,28 +426,6 @@ F 3 "~" H 2500 5125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amplifier_RF:BGA725L6 U1
-U 1 1 5BE2320A
-P 3025 5325
-F 0 "U1" H 2775 6000 50  0000 C CNN
-F 1 "BGA725L6" H 2750 5900 50  0000 C CNN
-F 2 "lib_fp:TSNP-6_0.8x0.7mm_P0.4mm" H 3075 5475 50  0001 C CNN
-F 3 "" H 3075 5475 50  0001 C CNN
-	1    3025 5325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Filter_RF:B4327 U2
-U 1 1 5BE232A3
-P 3800 5225
-F 0 "U2" H 3800 5640 50  0000 C CNN
-F 1 "B4327" H 3800 5549 50  0000 C CNN
-F 2 "lib_fp:Filter_1411-5_1.4x1.1mm_1" H 3800 5225 50  0001 C CNN
-F 3 "" H 3800 5225 50  0001 C CNN
-	1    3800 5225
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5BE24383
 P 4350 5125
@@ -553,17 +531,6 @@ Wire Wire Line
 	4500 5125 4600 5125
 Text Label 3425 6125 1    50   ~ 0
 ANT_OFF
-$Comp
-L project-rescue:ST1S12GR-Regulator_Switchung_Local U4
-U 1 1 5BE438A0
-P 2800 2200
-F 0 "U4" H 2775 2565 50  0000 C CNN
-F 1 "ST1S12GR" H 2775 2474 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2750 2150 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/st1s12xx.pdf" H 2750 2150 50  0001 C CNN
-	1    2800 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R2
 U 1 1 5BE461F6
@@ -774,17 +741,6 @@ F 3 "~" H 7600 2075 50  0001 C CNN
 	1    7600 2075
 	1    0    0    -1  
 $EndComp
-$Comp
-L project-rescue:Conn_01x10_1-Connector_Local J3
-U 1 1 5BED023B
-P 8400 2075
-F 0 "J3" H 8320 2692 50  0000 C CNN
-F 1 "Conn_01x10_1" H 8320 2601 50  0000 C CNN
-F 2 "lib_fp:PinHeader_1x10_P2.54mm_Vertical_1" H 8400 2075 50  0001 C CNN
-F 3 "~" H 8400 2075 50  0001 C CNN
-	1    8400 2075
-	-1   0    0    -1  
-$EndComp
 Text Label 6775 1775 0    50   ~ 0
 ~RESET
 Text Label 6775 2075 0    50   ~ 0
@@ -966,10 +922,10 @@ Wire Wire Line
 Text Label 5250 7225 3    50   ~ 0
 V_BATT
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0106
 U 1 1 5C1845AE
 P 4825 7475
-F 0 "#FLG?" H 4825 7550 50  0001 C CNN
+F 0 "#FLG0106" H 4825 7550 50  0001 C CNN
 F 1 "PWR_FLAG" H 4825 7648 50  0000 C CNN
 F 2 "" H 4825 7475 50  0001 C CNN
 F 3 "~" H 4825 7475 50  0001 C CNN
@@ -977,10 +933,10 @@ F 3 "~" H 4825 7475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0107
 U 1 1 5C1845EF
 P 4425 7475
-F 0 "#FLG?" H 4425 7550 50  0001 C CNN
+F 0 "#FLG0107" H 4425 7550 50  0001 C CNN
 F 1 "PWR_FLAG" H 4425 7648 50  0000 C CNN
 F 2 "" H 4425 7475 50  0001 C CNN
 F 3 "~" H 4425 7475 50  0001 C CNN
@@ -988,10 +944,10 @@ F 3 "~" H 4425 7475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0104
 U 1 1 5C1848D3
 P 4825 7375
-F 0 "#PWR?" H 4825 7225 50  0001 C CNN
+F 0 "#PWR0104" H 4825 7225 50  0001 C CNN
 F 1 "+3.3V" H 4840 7548 50  0000 C CNN
 F 2 "" H 4825 7375 50  0001 C CNN
 F 3 "" H 4825 7375 50  0001 C CNN
@@ -999,10 +955,10 @@ F 3 "" H 4825 7375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0105
 U 1 1 5C184B81
 P 4425 7375
-F 0 "#PWR?" H 4425 7225 50  0001 C CNN
+F 0 "#PWR0105" H 4425 7225 50  0001 C CNN
 F 1 "+5V" H 4440 7548 50  0000 C CNN
 F 2 "" H 4425 7375 50  0001 C CNN
 F 3 "" H 4425 7375 50  0001 C CNN
@@ -1026,4 +982,48 @@ Wire Wire Line
 	6350 4475 7375 4475
 Wire Wire Line
 	6350 4075 6350 4125
+$Comp
+L Connector_Local:Conn_01x10_1 J3
+U 1 1 5D6679B0
+P 8400 2075
+F 0 "J3" H 8318 2692 50  0000 C CNN
+F 1 "Conn_01x10_1" H 8318 2601 50  0000 C CNN
+F 2 "lib_fp:PinHeader_1x10_P2.54mm_Vertical_1" H 8400 2075 50  0001 C CNN
+F 3 "" H 8400 2075 50  0001 C CNN
+	1    8400 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_RF_Local:BGA725L6 U1
+U 1 1 5D666905
+P 3025 5325
+F 0 "U1" H 2800 5975 50  0000 C CNN
+F 1 "BGA725L6" H 2775 5875 50  0000 C CNN
+F 2 "lib_fp:TSNP-6_0.8x0.7mm_P0.4mm_1" H 3075 5475 50  0001 C CNN
+F 3 "" H 3075 5475 50  0001 C CNN
+	1    3025 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Filter_RF_Local:B4327 U2
+U 1 1 5D66B93E
+P 3800 5225
+F 0 "U2" H 3800 5640 50  0000 C CNN
+F 1 "B4327" H 3800 5549 50  0000 C CNN
+F 2 "lib_fp:Filter_1411-5_1.4x1.1mm_1" H 3800 5225 50  0001 C CNN
+F 3 "" H 3800 5225 50  0001 C CNN
+	1    3800 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching_Local:ST1S12GR U4
+U 1 1 5D676F93
+P 2800 2200
+F 0 "U4" H 2775 2565 50  0000 C CNN
+F 1 "ST1S12GR" H 2775 2474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2750 2150 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/st1s12xx.pdf" H 2750 2150 50  0001 C CNN
+	1    2800 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
