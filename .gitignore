@@ -1,6 +1,8 @@
 *.bck
+*.kicad_pcb-bak
 *.bak
 *.dcm
+*.sch-bak
 locations.txt
 components/
 fabrication/
