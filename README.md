@@ -1,6 +1,6 @@
 # TESEO-LIV3F Breakout Board
 
-This is a simple circuit board, designed to test and evaluate the effectiveness of the STMicroelectronics [TESEO-LIV3F][db4cd872] GNSS module.
+This is a simple circuit board, designed to enable easy testing and evaluation of the STMicroelectronics [TESEO-LIV3F][db4cd872] GNSS module.
 
   [db4cd872]: https://www.st.com/en/positioning/teseo-liv3f.html "teseo-liv3f"
 
