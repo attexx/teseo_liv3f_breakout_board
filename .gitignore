@@ -3,6 +3,7 @@
 *.bak
 *.dcm
 *.sch-bak
-locations.txt
+location*.txt
 components/
+export/
 fabrication/
