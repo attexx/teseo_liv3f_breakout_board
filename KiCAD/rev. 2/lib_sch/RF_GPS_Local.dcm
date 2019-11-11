@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TESEO-LIV3F
+D Tiny GPS Module
+F http://update.maestro-wireless.com/GNSS/A2235-H/Maestro_A2135_HA2235_H_v11.pdf
+$ENDCMP
+#
+#End Doc Library
